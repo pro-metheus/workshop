@@ -1,0 +1,5 @@
+python3: https://www.python.org/downloads/
+
+django : pip install django
+
+heroku : https://cli-assets.heroku.com/branches/stable/heroku-windows-x86.exe

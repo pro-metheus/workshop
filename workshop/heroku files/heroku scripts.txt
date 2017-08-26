@@ -1,0 +1,13 @@
+initiate git : git init
+
+add files : git add .
+
+commit files : git commit -m "Added a Procfile."
+
+push : git push heroku master
+
+
+
+disable static : heroku config:set DISABLE_COLLECTSTATIC=1
+
+scale : heroku ps:scale worker=1

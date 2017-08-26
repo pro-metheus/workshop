@@ -1,0 +1,15 @@
+step 1: install pip
+	
+	sudo easy_install pip
+
+step 2 : install virtual env
+
+	sudo pip install --upgrade virtualenv
+
+step 3: create python3 virtual env
+
+	virtualenv -p python3 py3env
+
+step 4 : heroku
+
+	wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
